@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>承認プロセスを有効化する組織で割り当ててください。</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>leala__AdvisorContract__c.Authorizer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>leala__Invoice__c.Authorizer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>LEALA 承認プロセス用権限セット</label>
+</PermissionSet>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>UpdateStatusApproved</fullName>
+        <field>leala__Status__c</field>
+        <literalValue>所内承認済み</literalValue>
+        <name>状況を所内承認済みに変更</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateStatusDraft</fullName>
+        <field>leala__Status__c</field>
+        <literalValue>立案</literalValue>
+        <name>状況を立案に変更</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateStatusRequest</fullName>
+        <field>leala__Status__c</field>
+        <literalValue>所内申請中</literalValue>
+        <name>状況を所内申請中に変更</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

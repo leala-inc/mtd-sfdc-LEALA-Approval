@@ -1,0 +1,16 @@
+{
+    "orgName": "LEALA Inc. Dev",
+    "edition": "Developer",
+    "features": ["PersonAccounts", "Communities", "DebugApex", "EnableSetPasswordInApi"],
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        }
+    }
+}
